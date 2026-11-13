@@ -11,7 +11,7 @@ async function fetchJsonData() {
 		const blogList = document.getElementById('links');
 
         myJsonData.blogs.forEach(blog => {
-            if (blog.status === "hiatus") return;
+           // if (blog.status === "hiatus") return;
 
             const blogItem = document.createElement('a');
             blogItem.href = blog.link + blog.url;
