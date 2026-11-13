@@ -1,0 +1,52 @@
+{
+    "blogs": [
+        {
+            "url": "stake2heart",
+            "muse": "buffy summers",
+            "status": "high",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "okults",
+            "muse": "multimuse",
+            "status": "sporadic",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "vhelmas",
+            "muse": "velma dinkley",
+            "status": "sporadic",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "doevoured",
+            "muse": "lottie matthews",
+            "status": "hiatus",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "spectakl",
+            "muse": "celebrity multimuse",
+            "status": "hiatus",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "eksploit",
+            "muse": "ruby serrano",
+            "status": "hiatus",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "inksaint",
+            "muse": "alison pendle",
+            "status": "hiatus",
+            "link": "https://www.tumblr.com/{url}"
+        },
+        {
+            "url": "vampyrph",
+            "muse": "rph blog",
+            "status": "sporadic",
+            "link": "https://www.tumblr.com/{url}"
+        }
+    ]
+}
