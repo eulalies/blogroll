@@ -6,16 +6,6 @@
 }
 
 :root {
-    /* --background-height: 100vh;
-    --site-language-alignment: left;
-    --site-language-direction: ltr;
-    --site-language-flex-alignment: flex-start;
-    --site-language-indent-left: 1;
-    --site-language-indent-right: 0;
-    --site-language-margin-left: 0;
-    --site-language-margin-right: auto;
-    --viewport-height: 100vh; */
-
     --purple-light:   #d1cfe6;
     --purple-regular: #706d8d;
     --purple-dark:    #4d4a6a;
@@ -129,7 +119,7 @@ body {
     font-variant: none;
 }
 
-.links a button-url {
+.links a:hover button-url {
     color: transparent;
     background-image: linear-gradient(180deg, var(--off-white), var(--red-light));
     background-clip: text;
@@ -144,30 +134,3 @@ body {
     font-style: italic;
     letter-spacing: 0.2em;
 }
-
-/*.links a {
-    display: block;
-    padding: 14px 18px;
-    border: 1px solid rgb(74 55 112 / 12%);
-    border-radius: 12px;
-    background: #fff;
-    color: inherit;
-    transition: transform 160ms ease, box-shadow 160ms ease;
-}
-
-.links button {
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: 'Cousine', monospace;
-    background: #ffffff11; 
-    
-}
-
-.links a:hover,
-.links a:focus-visible {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 18px rgb(42 28 72 / 12%);
-    outline: none;
-}*/
