@@ -134,3 +134,10 @@ body {
     font-style: italic;
     letter-spacing: 0.2em;
 }
+
+.links a button-star, .links a button-stat {
+    font-variant: small-caps;
+    font-size: 0.8em;
+    color: var(--purple-light);
+    letter-spacing: 0.1em;
+}
