@@ -103,8 +103,9 @@ body {
     gap: 12px;
 }
 
-.links button {
+.links a {
     display: block;
+    text-decoration: none;
     border: 0px solid var(--red-regular);
     border-radius: 0px;
     background-color: var(--black);
@@ -116,26 +117,26 @@ body {
     height: 50px;
 }
 
-.links button:hover {
+.links a:hover {
     background: rgb(76 10 8 / 10%);
     border-left: 3px solid var(--red-regular);
 }
 
-.links button button-url {
+.links a button-url {
     color: var(--red-light);
     font-family: 'Jacquarda Bastarda 9', serif;
     font-size: 1em;
     font-variant: none;
 }
 
-.links button:hover button-url {
+.links a button-url {
     color: transparent;
     background-image: linear-gradient(180deg, var(--off-white), var(--red-light));
     background-clip: text;
 }
 
 
-.links button button-muse {
+.links a button-muse {
     font-variant: none;
     font-size: 0.8em;
     margin-bottom: 5px !important;
