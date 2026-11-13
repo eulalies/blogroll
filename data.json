@@ -19,6 +19,12 @@
             "link": "https://www.tumblr.com/"
         },
         {
+            "url": "vampyrph",
+            "muse": "rph blog",
+            "status": "sporadic",
+            "link": "https://www.tumblr.com/"
+        },
+        {
             "url": "doevoured",
             "muse": "lottie matthews",
             "status": "hiatus",
@@ -40,12 +46,6 @@
             "url": "inksaint",
             "muse": "alison pendle",
             "status": "hiatus",
-            "link": "https://www.tumblr.com/"
-        },
-        {
-            "url": "vampyrph",
-            "muse": "rph blog",
-            "status": "sporadic",
             "link": "https://www.tumblr.com/"
         }
     ]
