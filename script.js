@@ -29,6 +29,28 @@ async function fetchJsonData() {
             blogMuse.classList.add('button-muse');
             blogMuse.textContent = `${blog.muse ?? ""}`;
 	        blogItem.appendChild(blogMuse);
+
+			const blogStar = document.createElement('button-star')
+			blogStar.classList.add('button-star');
+
+			if (blog.status == "high")
+				blogStar.textContent = '\xa0\xa0 ★\xa0\xa0 ';
+            if (blog.status == "sporadic")
+				blogStar.textContent = '\xa0\xa0 ⯪\xa0\xa0 ';
+            if (blog.status == "hiatus")
+				blogStar.textContent = '\xa0\xa0 ☆\xa0\xa0 ';
+            blogItem.append(blogStar);
+
+
+            const blogStat = document.createElement('button-stat')
+			blogStat.classList.add('button-stat');
+            if (blog.status != "hiatus")
+                blogStat.textContent = `${blog.status ?? ""} activity`;
+            else
+                blogStat.textContent = `on ${blog.status ?? ""}`;
+	        blogItem.appendChild(blogStat);
+			
+			
             blogItem.appendChild(document.createElement('br'));
             
             blogList.appendChild(blogItem);
