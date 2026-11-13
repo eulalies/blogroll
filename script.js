@@ -15,7 +15,7 @@ async function fetchJsonData() {
 
             const blogItem = document.createElement('a');
             blogItem.href = blog.link + blog.url;
-	        blogItem.classList.add('button');
+	        blogItem.classList.add('a');
             
 
             const blogUrl = document.createElement('button-url');
