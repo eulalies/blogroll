@@ -13,9 +13,10 @@ async function fetchJsonData() {
         myJsonData.blogs.forEach(blog => {
             if (blog.status === "hiatus") return;
 
-            const blogItem = document.createElement('button');
+            const blogItem = document.createElement('a');
+            blogItem.href = blog.link + blog.url;
 	        blogItem.classList.add('button');
-
+            
             const blogUrl = document.createElement('button-url');
             blogUrl.classList.add('button-url');
             blogUrl.textContent = `— @ ${blog.url ?? ""} —`;
@@ -29,7 +30,6 @@ async function fetchJsonData() {
 	        blogItem.appendChild(blogMuse);
             blogItem.appendChild(document.createElement('br'));
             
-            /*blogItem.textContent = `${blog.url ?? ""} - ${blog.muse ?? ""} - ${blog.status ?? ""}`;*/
             blogList.appendChild(blogItem);
         })
 
